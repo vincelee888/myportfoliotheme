@@ -1,0 +1,422 @@
+.sticky {
+    display: block;
+}
+
+.hentry {
+    margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+    display: none;
+}
+
+.group-blog .byline,
+.single .byline {
+    display: inline;
+}
+
+.entry-content,
+.entry-summary,
+.page-content {
+    margin: 1.5em 0 0;
+}
+
+.entry-content {
+    margin-top: -1.5em;
+}
+
+.page-links {
+    clear: both;
+    margin: 0 0 1.5em;
+}
+
+.entry-title {
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    text-align: right;
+    padding-top: 1em;
+    color: black;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-right: initial;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.entry-title > a {
+color: $color_green;
+}
+
+.entry-title > a:hover {
+  color: white !important;
+}
+
+.page-id-6 .site-info {
+    position: absolute;
+    bottom: 1;
+}
+
+.page-id-6 .entry-header {
+  display:none !important;
+}
+
+.page-id-19 .entry-header {
+  display:none !important;
+}
+
+.page-id-19 .site-info {
+    position: absolute;
+    background-color: transparent !important;
+}
+
+article {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: -1em;
+}
+
+.page-id-6 .site-info {
+    position: absolute;
+    bottom: 1;
+}
+
+.page-id-6 article {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-id-19 article {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-id-102 article {
+    margin-top: -2em;
+    padding-top: -3em;
+}
+
+.page-id-102 .main-navigation a {
+    margin-top: -2em;
+    padding-top: -3em;
+}
+
+.page-id-160 article {
+    margin-top: -2em;
+    padding-top: -3em;
+}
+
+.page-id-160 .main-navigation a {
+    margin-top: -2em;
+    padding-top: -3em;
+    display: block;
+}
+
+.page-id-102 .site-info {
+    display: block;
+}
+
+.page-id-160 .site-info {
+    display: block;
+}
+
+.page-id-160 #masthead {
+    padding-top: 0.25em;
+}
+
+.page-id-195 article {
+    margin-top: -2em;
+    padding-top: -3em;
+}
+
+.page-id-195 .main-navigation a {
+    margin-top: -2em;
+    padding-top: -3em;
+    display: block;
+}
+
+.page-id-195 .site-info {
+    display: block;
+}
+
+.page-id-6 .site-info {
+    background-color: transparent !important;
+}
+
+.page-id-6 .entry-content {
+    background-color: #99ead4 !important;
+}
+
+.page-id-19 #content {
+    background-color: transparent !important;
+}
+
+.page-id-19 .entry-content {
+    background-color: transparent !important;
+}
+
+/* PROJECTS PAGE */
+
+.flex-container {
+    margin-left: 0.25em !important;
+    margin-right: 0.25em;
+    margin-top: -2em !important;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    text-align:justify;
+}
+
+.flex-container a {
+  color: white;
+}
+
+.flex-container a:hover {
+  color:$color_pink;
+}
+
+.flex-item-skills {
+  border: $color_green solid 1px;
+  width: 40em;
+  margin-left: 0.25em;
+  margin-top: 0.5em;
+  margin-right: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  order: 1;
+  flex: auto;
+}
+
+.flex-item-experience {
+  border: $color_green solid 1px;
+  width: 40em;
+  margin-left: 0.25em;
+  margin-top: 0.5em;
+  margin-right: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  order: 2;
+  flex: auto;
+}
+
+.flex-item-jim {
+  border: $color_green solid 1px;
+  width: 40em;
+  margin-left: 0.25em;
+  margin-top: 0.5em;
+  margin-right: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  order: 3;
+  flex: auto;
+}
+
+.flex-item-ssn {
+border: $color_green solid 1px;
+    width: 40em;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    margin-right: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    order: 4;
+    flex:auto;
+}
+
+.flex-item-bmphoto {
+  border: white solid 1px;
+    width: 40em;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    margin-right: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    order: 5;
+    flex: auto;
+}
+
+.flex-item-lords {
+border: $color_green solid 1px;
+    width: 40em;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    margin-right: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    order: 6;
+    flex: auto;
+}
+
+
+.flex-description {
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 0.3em;
+}
+
+.about-download a {
+    text-decoration: underline;
+    color:$color_green;
+}
+
+.about-download a:hover {
+    color:$color_pink;
+}
+
+
+.img-description {
+    font-size: 0.8em;
+    line-height: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    clear:both;
+}
+
+.flex-item-ssn > h2,
+.flex-item-bmphoto > h2,
+.flex-item-lords > h2,
+.flex-item-experience > h2,
+.flex-item-skills > h2,
+.flex-item-jim > h2 {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.page-id-102 p, h2 {
+  color: white;
+}
+
+.page-id-102 a {
+color: $color_green;
+}
+
+.page-id-6 .site-content {
+    pointer-events: none;
+}
+
+.page-id-160 .entry-content {
+    pointer-events: none;
+}
+
+.page-id-102 .entry-content {
+    pointer-events: none;
+}
+
+.page-id-195 .entry-content {
+    pointer-events: none;
+}
+
+.page-id-19 .entry-content {
+    pointer-events: none;
+}
+
+/* Background Images */
+
+.page-id-6 {
+  background-image: url("http://www.benmarley.co.uk/wp-content/uploads/2016/09/berlin_wall.jpeg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.page-id-6 .home-link-site-title > a {
+color: $color_green;
+}
+
+/* Ensures the NYC rooftop image is used for portrait view, regardless of device */
+.page-id-6 {
+background-image: url("http://benmarley.co.uk/wp-content/uploads/2017/05/nyc_rooftop_sm.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+    /* Ensures the Berlin wall image is used for lanscape view, regardless of device */
+    @media screen and (orientation : landscape) {
+      .page-id-6 {
+      background-image: url("http://www.benmarley.co.uk/wp-content/uploads/2016/09/berlin_wall.jpeg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      }
+    }
+    /* Ensures the Berlin Alexanderplatz image is used for portrait view, regardless of device */
+    .page-id-19 {
+    background-image: url("http://www.benmarley.co.uk/wp-content/uploads/2016/09/alexanderplatz.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+
+        /* Ensures the Milan street image is used for lanscape view, regardless of device */
+        @media screen and (orientation : landscape) {
+          .page-id-19 {
+          background-image: url("http://www.benmarley.co.uk/wp-content/uploads/2016/09/milan_rain.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+          }
+        }
+
+
+.page-id-19 .home-link-site-title > a {
+color: $color_green;
+}
+
+.page-id-19 #responsive_menu_pro_button_text {
+color: $color_green;
+}
+
+.home-link-site-title > a {
+color: $color_green;
+}
+
+.entry-title > a:hover {
+color: $color_pink !important;
+}
+
+/* HOME PAGE TEXT STYLING */
+
+.about-me {
+  text-align: center;
+  margin-top:2.5em;
+  margin-right: auto;
+}
+
+.front-end, .location, .available {
+  display: block;
+  text-align:center;
+  padding-top:0;
+  color: white;
+background-color: rgba(77, 77, 77, 0.5);
+  word-wrap: normal;
+  display: block;
+  width: 100%;
+  padding-top:0.2em;
+  padding-bottom:0.2em;
+  font-size: 1.25em;
+  margin-bottom: -1em !important;
+}
+
+/* Media queries for Home page. For better display of text on mid-size - larger screens */
+
+@media screen and (min-width: 767px) {
+  .front-end, .location, .available {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .front-end, .location, .available {
+  font-size: 3.5em;
+  }
+}
+
+@media screen and (min-width: 1599px) {
+  .front-end, .location, .available {
+    font-size: 6em;
+  }
+}

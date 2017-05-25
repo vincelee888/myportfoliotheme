@@ -15,7 +15,7 @@ get_header(); ?>
 				Interested in junior roles in Manchester
 			</p><!-- location -->
 			<p class="available">
-				Available July 2017
+				Available <? echo date('F Y', mktime(0, 0, 0, date('m')+1, 1, date('Y'))); ?>
 			</p><!-- available -->
 		</div> <!-- about-me -->
 

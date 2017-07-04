@@ -328,21 +328,12 @@ color: $color_green;
 
 /* Ensures the NYC rooftop image is used for portrait view, regardless of device */
 .page-id-6 {
-background-image: url("http://benmarley.co.uk/wp-content/uploads/2017/05/nyc_rooftop_sm.jpg");
-background-size: cover;
-background-position: center;
-height: 100vh;
+  background-image: url("http://benmarley.co.uk/wp-content/uploads/2017/05/nyc_rooftop_sm.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-    /* Ensures the Berlin wall image is used for lanscape view, regardless of device */
-    @media screen and (orientation : landscape) {
-      .page-id-6 {
-      background-image: url("http://www.benmarley.co.uk/wp-content/uploads/2016/09/berlin_wall.jpeg");
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      }
-    }
     /* Ensures the Berlin Alexanderplatz image is used for portrait view, regardless of device */
     .page-id-19 {
     background-image: url("http://www.benmarley.co.uk/wp-content/uploads/2016/09/alexanderplatz.jpg");
